@@ -65,7 +65,7 @@ function writeToFile(fileName, data) {
         if (err) {
             return console.log(err)
         } else {
-            console.log('Success!')
+            console.log('README file has been created!')
         }
     })
 }
@@ -74,7 +74,7 @@ function writeToFile(fileName, data) {
 function init() {
    inquirer.prompt(questions)
         .then(function(data){
-            writeToFile("README.md", generatorMarkdown(data));
+            writeToFile("AppREADME.md", generatorMarkdown(data));
             console.log(data);
         })
 }

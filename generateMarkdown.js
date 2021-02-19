@@ -3,7 +3,6 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
   License for this app is : ${data.license}
-  ![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)
 
   # Table of Contents
 
