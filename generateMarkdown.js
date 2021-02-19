@@ -43,11 +43,11 @@ function generateMarkdown(data) {
     - [License](https://opensource.org/license/${data.license})
 
     ## Questions:
-        For questions about the Generator you can go to my GitHub page at the following Link:
+        Contact me at the following Link:
 
         -[GitHub Profile](https://github.com/${data.username})
 
-        for additional questions send me an email at: ${data.email}
+        Send me an email at: ${data.email}
   `;
 }
 
