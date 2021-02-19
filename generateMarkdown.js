@@ -2,6 +2,9 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  License for this app is : ${data.license}
+  ![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)
+
   # Table of Contents
 
     - [Description](#description)
@@ -23,7 +26,7 @@ function generateMarkdown(data) {
     ## Test:
         ${data.test}
     ## License:
-       For more information about the license, click the link below.
+       For information about the license, click the link below.
 
     - [License](https://opensource.org/license/${data.license})
 
