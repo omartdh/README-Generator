@@ -35,14 +35,8 @@ const questions = [{
     name: "test"
 },
 {
-    type: "checkbox",
-    message: "Select a license",
-    choices: [
-        "Apache",
-        "MIT",
-        "ISC",
-        "GNU PLv3",
-    ],
+    type: "input",
+    message: "What license do you want to use?",
     name: "license"
 },
 {
